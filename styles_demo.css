@@ -1,0 +1,35 @@
+.main-container
+{
+  transform: translate(-50%, 0);
+  top: 0;
+  width: 63vw;
+}
+
+.right-p
+{
+  text-align: right;
+}
+
+.date-returnbtn-container
+{
+  height: 4vw;
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.returnbtn, .date
+{
+  width: 50%;
+}
+
+.returnbtn
+{
+  float: left;
+  text-align: left;
+}
+
+.date
+{
+  float: right;
+  text-align: right;
+}
