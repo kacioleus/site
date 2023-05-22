@@ -3,6 +3,7 @@
   transform: translate(-50%, 0);
   top: 0;
   width: 63vw;
+  text-align: left;
 }
 
 .right-p
@@ -32,4 +33,17 @@
 {
   float: right;
   text-align: right;
+}
+
+img
+{
+  margin-left: 3%;
+  width: 94%;
+  border: 0.2vw solid #363636;
+}
+
+.idtext {
+
+text-align: center;
+width: 94%;
 }
