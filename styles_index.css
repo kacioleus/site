@@ -40,6 +40,7 @@ body
   position: absolute;
   width: 40vw;
   height: auto;
+  text-align: center;
 }
 
 .main
@@ -79,4 +80,28 @@ a
 {
   text-decoration: none;
   color: #007dff;
+}
+
+.anim
+{
+  animation-name: anim;
+  animation-duration: 0.4s;
+  animation-timing-funtion: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  font-size: 1.6vw;
+  line-height: calc(1.8vw);
+}
+
+@keyframes anim
+{
+  0%
+  {
+    transform: scale(1);
+  }
+  
+  100%
+  {
+    transform: scale(0.95);
+  }
 }
