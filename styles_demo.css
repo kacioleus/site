@@ -6,6 +6,11 @@
   text-align: left;
 }
 
+p
+{
+  text-align: justify;
+}
+
 .right-p
 {
   text-align: right;
@@ -32,7 +37,6 @@
 .date
 {
   float: right;
-  text-align: right;
 }
 
 img
@@ -40,6 +44,7 @@ img
   margin-left: 3%;
   width: 94%;
   border: 0.2vw solid #363636;
+  border-radius: 0.5vw;
 }
 
 .idtext {
